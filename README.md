@@ -87,9 +87,12 @@
 
 **comment**
 
-- AJAX 비동기 리스트 출력 시 .jsp로 리스트 값을 바로 보내 <c:foreach>사용에 어려움이 있었다.
+- OPEN API를 이용하여 불러온 리스트를 어떻게 처리할지 고민을 많이했다.
 
+![13](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/cf89edb5-43be-4af6-a42f-4b103016ccf5)
 
-![1](https://github.com/jeonggyohoon/Spring-AJAX-10MINUTES/assets/133930245/884b4479-a248-4d0e-ab7f-0a5fa6acd37d)
+#### 1. HTML을 동적으로 구축하여 지정 위치에 출력하는 방법이 있다.
 
-#### 1. 비동기 처리 서버의 작업 순서가 JAVA>JSTL>HTML>JavaScript 이기 때문에 에러가 뜬다.
+![12](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/486787c5-3e02-4111-8a9c-32df411537b5)
+
+#### 2. 또 다른 방법으로 별도의 JSP에서 리스트를 만들어 지정 위치로 보내주는 방법이 있다.(출력 값이 복잡할 경우 이 방법 추천!)
