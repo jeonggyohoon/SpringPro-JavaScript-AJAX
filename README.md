@@ -38,6 +38,7 @@
 <br/>
 
 - 메인 페이지(리스트 출력, 로그인)
+
 <br/>
 
 ![Spring](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/1ab44787-9211-4939-b423-f704c6ce7273)
@@ -45,9 +46,11 @@
 > code location
 >> views / boardList.jsp
 >> views / left.jsp
+
 <br/>
 
 - 상세 페이지, 댓글 등록
+
 <br/>
 
 ![Spring (5)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/d13d38e5-8a9b-4901-9bbd-ade77e103e92)
@@ -55,9 +58,11 @@
 > code location
 >> views / get.jsp
 >> views / reply.jsp
+
 <br/>
 
 - 위치 조회
+
 <br/>
 
 ![Spring (2)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/522f6d6d-cc11-42d7-b36f-aa76cc853cd1)
@@ -68,6 +73,7 @@
 <br/>
 
 - 도서 검색
+
 <br/>
 
 ![Spring (3)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/44abfdc2-be6e-4601-8efe-6f405d5cd3a1)
@@ -76,3 +82,14 @@
 >> 출력위치 views / right.jsp
 >> Script views / boardList.jsp
 <br/>
+
+---
+
+**comment**
+
+- AJAX 비동기 리스트 출력 시 .jsp로 리스트 값을 바로 보내 <c:foreach>사용에 어려움이 있었다.
+
+
+![1](https://github.com/jeonggyohoon/Spring-AJAX-10MINUTES/assets/133930245/884b4479-a248-4d0e-ab7f-0a5fa6acd37d)
+
+#### 1. 비동기 처리 서버의 작업 순서가 JAVA>JSTL>HTML>JavaScript 이기 때문에 에러가 뜬다.
