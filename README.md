@@ -49,7 +49,7 @@
 - 상세 페이지, 댓글 등록
 <br/>
 
-![Spring (1)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/8846db36-9f4c-49eb-b4cf-6cfdbddb47e5)
+![Spring (4)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/2a631e87-f9f1-4f80-b779-867ce24b7416)
 
 > code location
 >> 
