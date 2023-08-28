@@ -43,7 +43,8 @@
 ![Spring](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/1ab44787-9211-4939-b423-f704c6ce7273)
 
 > code location
->> 
+>> views / boardList.jsp
+>> views / left.jsp
 <br/>
 
 - 상세 페이지, 댓글 등록
@@ -52,7 +53,8 @@
 ![Spring (5)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/d13d38e5-8a9b-4901-9bbd-ade77e103e92)
 
 > code location
->> 
+>> views / get.jsp
+>> views / reply.jsp
 <br/>
 
 - 위치 조회
@@ -61,7 +63,8 @@
 ![Spring (2)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/522f6d6d-cc11-42d7-b36f-aa76cc853cd1)
 
 > code location
->> 
+>> 출력위치 views / left.jsp
+>> Script views / boardList.jsp
 <br/>
 
 - 도서 검색
@@ -70,5 +73,6 @@
 ![Spring (3)](https://github.com/jeonggyohoon/MVC-pattern-imarket/assets/133930245/44abfdc2-be6e-4601-8efe-6f405d5cd3a1)
 
 > code location
->> 
+>> 출력위치 views / right.jsp
+>> Script views / boardList.jsp
 <br/>
